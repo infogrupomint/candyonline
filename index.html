@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página de Pedidos</title>
+</head>
+<body>
+    <header>
+        <h1>Menú de Pedidos</h1>
+    </header>
+
+    <section id="productos">
+        <!-- Aquí se mostrarán los productos -->
+    </section>
+
+    <section id="carrito">
+        <h2>Carrito de Compras</h2>
+        <ul id="lista-carrito"></ul>
+        <p>Total: $<span id="totalCarrito">0.00</span></p>
+    </section>
+
+    <section id="sala-ubicacion">
+        <h2>Sala y Ubicación</h2>
+        <label for="sala">Selecciona la Sala:</label>
+        <select id="sala">
+            <option value="Sala 1">Sala 1</option>
+            <option value="Sala 2">Sala 2</option>
+            <option value="Sala 3">Sala 3</option>
+        </select>
+
+        <label for="ubicacion">Ubicación en la Sala:</label>
+        <input type="text" id="ubicacion" placeholder="Ej. Mesa 5">
+
+        <button onclick="realizarPedido()">Realizar Pedido</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
