@@ -1,11 +1,11 @@
 // Ejemplo de productos
 const productos = [
-    { id: 1, nombre: 'Balde Pop', precio: 1000, imagen: 'baldepop.jpg' },
-    { id: 2, nombre: 'Bolsa Pop', precio: 800, imagen: 'baldepop.jpg' },
-    { id: 3, nombre: 'Balde Pop', precio: 1000, imagen: 'baldepop.jpg' },
-    { id: 4, nombre: 'Bolsa Pop', precio: 800, imagen: 'baldepop.jpg' },
-    { id: 5, nombre: 'Balde Pop', precio: 1000, imagen: 'baldepop.jpg' },
-    { id: 6, nombre: 'Bolsa Pop', precio: 800, imagen: 'baldepop.jpg' },
+    { id: 1, nombre: 'Pizza Muzzarela', precio: 1000, imagen: 'baldepop.jpg' },
+    { id: 2, nombre: 'Pizza Especial', precio: 800, imagen: 'baldepop.jpg' },
+    { id: 3, nombre: 'Pizza Provolone', precio: 1000, imagen: 'baldepop.jpg' },
+    { id: 4, nombre: 'Pizza Calabresa', precio: 800, imagen: 'baldepop.jpg' },
+    { id: 5, nombre: 'Pizza Anana', precio: 1000, imagen: 'baldepop.jpg' },
+    { id: 6, nombre: 'Pizza SOS', precio: 800, imagen: 'baldepop.jpg' },
     // Agrega más productos según sea necesario
 ];
 
