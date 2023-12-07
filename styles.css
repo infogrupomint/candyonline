@@ -45,7 +45,7 @@ h1 {
 
 .producto {
     border: 1px solid #1c1c1c;
-    padding: 10px;
+    padding: 3px;
     margin: 10px;
     text-align: center;
 }
@@ -89,7 +89,7 @@ h1 {
 /* Estilos generales para el botón */
 button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-size: 16px;
   text-align: center;
   text-decoration: none;

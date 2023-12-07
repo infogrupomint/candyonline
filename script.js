@@ -2,7 +2,7 @@
 const productos = [
     { id: 1, nombre: 'Balde Pop ', precio: 1000, imagen: 'baldepop.jpg' },
     { id: 2, nombre: 'Bolsa Pop', precio: 800, imagen: 'bolsapop.jpg' },
-    { id: 3, nombre: 'Nachos con Cheddar', precio: 1000, imagen: 'nachos.jpg' },
+    { id: 3, nombre: 'Nachos c/ Cheddar', precio: 1000, imagen: 'nachos.jpg' },
     { id: 4, nombre: 'Superpancho', precio: 800, imagen: 'pancho.jpg' },
     { id: 5, nombre: 'Nuggets', precio: 1000, imagen: 'nuggets.jpg' },
     { id: 6, nombre: 'Pizza', precio: 800, imagen: 'pizza.jpg' },
