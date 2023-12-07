@@ -1,12 +1,11 @@
 // Ejemplo de productos
 const productos = [
-    { id: 1, nombre: 'Balde Pop Polipapel', precio: 1000, imagen: 'baldepopp.jpg' },
-    { id: 2, nombre: 'Balde Pop Plastico', precio: 800, imagen: 'baldepop.jpg' },
-    { id: 3, nombre: 'Bolsa Pop', precio: 1000, imagen: 'baldepop.jpg' },
-    { id: 4, nombre: 'Nachos con Queso Cheddar', precio: 800, imagen: 'baldepop.jpg' },
-    { id: 5, nombre: 'Pizza MUzza', precio: 1000, imagen: 'baldepop.jpg' },
-    { id: 6, nombre: 'Nuggets', precio: 800, imagen: 'baldepop.jpg' },
-    { id: 6, nombre: 'Superpancho', precio: 800, imagen: 'baldepop.jpg' },
+    { id: 1, nombre: 'Balde Pop ', precio: 1000, imagen: 'baldepop.jpg' },
+    { id: 2, nombre: 'Bolsa Pop', precio: 800, imagen: 'bolsapop.jpg' },
+    { id: 3, nombre: 'Nachos con Cheddar', precio: 1000, imagen: 'nachos.jpg' },
+    { id: 4, nombre: 'Superpancho', precio: 800, imagen: 'pancho.jpg' },
+    { id: 5, nombre: 'Nuggets', precio: 1000, imagen: 'nuggets.jpg' },
+    { id: 6, nombre: 'Pizza', precio: 800, imagen: 'pizza.jpg' },
     // Agrega más productos según sea necesario
 ];
 
@@ -26,7 +25,8 @@ function mostrarProductos() {
             <h3>${producto.nombre}</h3>
             <p>Precio: $${producto.precio.toFixed(2)}</p>
             <button onclick="agregarAlCarrito(${producto.id})">Agregar al Carrito</button>
-        `;
+
+                `;
         productosContainer.appendChild(productoElement);
     });
 }
@@ -44,6 +44,7 @@ function agregarAlCarrito(productoId) {
     }
 }
 
+
 // Función para actualizar el carrito en la página
 function actualizarCarrito() {
     const listaCarrito = document.getElementById('lista-carrito');
@@ -58,6 +59,7 @@ function actualizarCarrito() {
         itemCarrito.textContent = `${producto.nombre} - $${producto.precio.toFixed(2)}`;
         listaCarrito.appendChild(itemCarrito);
     });
+
 
     // Actualizar el total en el carrito
     totalCarritoElement.innerText = totalCarrito.toFixed(2);
