@@ -44,7 +44,7 @@ h1 {
 }
 
 .producto {
-    border: 1px solid red;
+    border: 1px solid #ff0000;
     padding: 10px;
     margin: 10px;
     text-align: center;
