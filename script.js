@@ -1,12 +1,17 @@
 // Ejemplo de productos
 const productos = [
-    { id: 1, nombre: 'Balde Pop ', precio: 1000, imagen: 'baldepop.jpg' },
-    { id: 2, nombre: 'Bolsa Pop', precio: 800, imagen: 'bolsapop.jpg' },
-    { id: 3, nombre: 'Nachos Cheddar', precio: 1000, imagen: 'nachos.jpg' },
-    { id: 4, nombre: 'Superpancho', precio: 800, imagen: 'pancho.jpg' },
-    { id: 5, nombre: 'Nuggets', precio: 1000, imagen: 'nuggets.jpg' },
-    { id: 6, nombre: 'Pizza', precio: 800, imagen: 'pizza.jpg' },
-    // Agrega más productos según sea necesario
+    { id: 1, nombre: 'Balde Pop ', precio: 1000, imagen: 'baldepop.png' },
+    { id: 2, nombre: 'Bolsa Pop', precio: 800, imagen: 'bolsapop.png' },
+    { id: 3, nombre: 'Nachos Cheddar', precio: 1000, imagen: 'nachos.png' },
+    { id: 4, nombre: 'Superpancho', precio: 800, imagen: 'pancho.png' },
+    { id: 5, nombre: 'Nuggets', precio: 1000, imagen: 'nuggets.png' },
+    { id: 6, nombre: 'Pizza', precio: 800, imagen: 'pizza.png' },
+
+    { id: 7, nombre: 'Coca Cola ', precio: 1000, imagen: 'cocacola.png' },
+    { id: 8, nombre: 'Sprite', precio: 800, imagen: 'sprite.png' },
+    { id: 9, nombre: 'Fanta', precio: 1000, imagen: 'fanta.png' },
+
+  // Agrega más productos según sea necesario
 ];
 
 // Variables globales
@@ -44,7 +49,6 @@ function agregarAlCarrito(productoId) {
     }
 }
 
-
 // Función para actualizar el carrito en la página
 function actualizarCarrito() {
     const listaCarrito = document.getElementById('lista-carrito');
@@ -53,7 +57,7 @@ function actualizarCarrito() {
     // Limpiar el carrito previo
     listaCarrito.innerHTML = '';
 
-    // Agregar los nuevos elementos al carrito
+    // Agregar los nuevos elementos al carrito 
     carrito.forEach(producto => {
         const itemCarrito = document.createElement('li');
         itemCarrito.textContent = `${producto.nombre} - $${producto.precio.toFixed(2)}`;
