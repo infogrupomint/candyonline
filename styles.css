@@ -44,7 +44,9 @@ h1 {
 }
 
 .producto {
+    backdrop-filter: blur(15px);
     border: 1px solid #1c1c1c;
+    border-radius: 10px;
     padding: 3px;
     margin: 10px;
     text-align: center;
