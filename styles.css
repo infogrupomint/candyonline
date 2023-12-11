@@ -94,13 +94,6 @@ h1 {
     border-radius: 5px;
 }
 
-    #pie-de-pagina {
-    margin-top: 10px;
-    text-align: center;
-    font-family: sans-serif;
-    color: #fff;
-}
-
 /* Estilos generales para el botón */
 button {
   display: inline-block;
