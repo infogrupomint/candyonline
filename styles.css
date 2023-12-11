@@ -65,6 +65,12 @@ h1 {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
+#refreshButton {
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #e01717;
+}
+
 #sala-ubicacion {
     margin-top: 2px;
     text-align: center;

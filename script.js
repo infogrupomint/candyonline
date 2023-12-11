@@ -69,6 +69,11 @@ function actualizarCarrito() {
     totalCarritoElement.innerText = totalCarrito.toFixed(2);
 }
 
+// Funcion para el boton de refrescar o reiniciar carrito
+document.getElementById('refreshButton').addEventListener('click', function() {
+    location.reload(true);
+});
+
 // Función para realizar el pedido
 function realizarPedido() {
     const salaSeleccionada = document.getElementById('sala').value;
