@@ -82,6 +82,7 @@ h1 {
     background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
+
 #sala, #ubicacion {
     margin-bottom: 10px;
     display: inline-block;
@@ -94,15 +95,10 @@ h1 {
     border-radius: 5px;
 }
 
-#pie-de-pagina {
-    color: red;
-    background-color: black;
-    display: flex;
-}
-
 /* Estilos generales para el botón */
 button {
   display: inline-block;
+  margin-bottom: 10px;
   padding: 5px 10px;
   font-size: 16px;
   text-align: center;
@@ -116,3 +112,15 @@ button {
 button:hover {
   background-color: #19bf3d;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+  }
+  @media (max-width: 600px) {
+    footer {
+      font-size: 14px;
+    }
+  }
