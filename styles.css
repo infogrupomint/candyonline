@@ -96,6 +96,8 @@ h1 {
 
 #pie-de-pagina {
     color: red;
+    background-color: black;
+    display: flex;
 }
 
 /* Estilos generales para el botón */
