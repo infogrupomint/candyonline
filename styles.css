@@ -120,6 +120,9 @@ footer {
     padding: 1px;
 }
 
+a {
+    color: rgb(24, 199, 190);
+}
 /* Estilo para enlaces visitados */
 a:visited {
     color: rgb(24, 199, 190); /* Puedes cambiar el color para enlaces visitados aquí */
